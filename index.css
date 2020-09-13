@@ -115,7 +115,7 @@ text-align: center;
 }
 .purple {
   overflow-x: hidden;
-  max-width: 100%;
+  
   width: 100%;
   z-index: -1;
   height: fit-content;
@@ -446,20 +446,20 @@ label {
 
 @media only screen and (max-width: 600px) {
   #hire-me {
-    top: 36%;
+    top: 26.5%;
   }
   button {
     font-size: 0.7rem;
   }
   .icon {
-    font-size: 1rem;
+    font-size: 3rem;
   }
   .card-desc {
-    font-size: 0.1rem;
+    font-size: 0.7rem;
     width: fit-content;
   }
   .card-title {
-    margin-top: 5px;
+    margin-top: 18px;
     font-size: 1.2rem;
     line-height: 1.2rem;
   }
@@ -474,8 +474,8 @@ label {
     bottom: -153px;
   }
   #svg {
-    height: 230px;
-    
+    height: 200px;
+   
     
   }
   .cards-img {
