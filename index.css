@@ -27,7 +27,7 @@ body {
 }
 .card {
  
-  width: 30rem;
+  
   padding: 2rem;
   margin: 7rem 2rem 2rem 2rem;
 }
@@ -93,7 +93,14 @@ body {
 .cards {
   justify-content: center;
   
- 
+  
+  display: flex;
+  position: relative;
+}
+.cards-img {
+  justify-content: center;
+  
+  
   display: flex;
   position: relative;
 }
@@ -349,3 +356,88 @@ label {
 
 }
 
+@media only screen and (max-width: 1000px) {
+  #hire-me {
+    top: 30%;
+  }
+  button {
+    font-size: 1.3rem;
+  }
+  .icon {
+    font-size: 3.5rem;
+  }
+  .card-desc {
+    font-size: 0.9rem;
+    width: fit-content;
+  }
+  .card-title {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+  .fa-check-circle {
+    font-size: 4rem;
+  }
+  .card {
+    margin: 4rem 0rem 0rem 0rem;
+  }
+  .svg {
+    width: 40rem;
+    bottom: -95px;
+  }
+  #svg {
+    height: 330px;
+    position: relative;
+    display: block;
+  }
+  .cards-img {
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #hire-me {
+    top: 30%;
+  }
+  button {
+    font-size: 1rem;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+  .card-desc {
+    font-size: 0.7rem;
+    width: fit-content;
+  }
+  .card-title {
+    margin-top: 18px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .fa-check-circle {
+    font-size: 2.9rem;
+  }
+  .card {
+    margin: 3rem 0rem 0rem 0rem;
+  }
+  .svg {
+    width: 30rem;
+    bottom: -134px;
+  }
+  #svg {
+    height: 250px;
+    position: relative;
+    display: block;
+  }
+  .cards-img {
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-card {
+    width: 80%;
+  }
+}
