@@ -446,20 +446,20 @@ label {
 
 @media only screen and (max-width: 600px) {
   #hire-me {
-    top: 33%;
+    top: 36%;
   }
   button {
     font-size: 0.7rem;
   }
   .icon {
-    font-size: 3rem;
+    font-size: 1rem;
   }
   .card-desc {
-    font-size: 0.7rem;
+    font-size: 0.1rem;
     width: fit-content;
   }
   .card-title {
-    margin-top: 18px;
+    margin-top: 5px;
     font-size: 1.2rem;
     line-height: 1.2rem;
   }
@@ -467,11 +467,11 @@ label {
     font-size: 2.9rem;
   }
   .card {
-    margin: 3rem 0rem 0rem 0rem;
+    margin: 3rem -1rem 0rem -1rem;
   }
   .svg {
-    width: 26rem;
-    bottom: -149px;
+    width: 25rem;
+    bottom: -153px;
   }
   #svg {
     height: 230px;
