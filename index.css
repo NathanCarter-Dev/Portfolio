@@ -62,7 +62,7 @@ body {
 #svg {
   height: 466px;
   position: relative;
-  display: block;
+  
 }
 
 .svg {
@@ -399,7 +399,7 @@ label {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   #hire-me {
     top: 30%;
   }
