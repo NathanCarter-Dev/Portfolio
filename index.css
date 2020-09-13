@@ -12,7 +12,7 @@
 .m-auto
 body {
   
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #title {
   margin-top: 10%;
@@ -114,6 +114,7 @@ text-align: center;
 
 }
 .purple {
+  overflow-x: hidden;
   max-width: 100%;
   width: 100%;
   z-index: -1;
