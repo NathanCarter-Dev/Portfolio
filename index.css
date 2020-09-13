@@ -114,6 +114,7 @@ text-align: center;
 
 }
 .purple {
+  max-width: 100%;
   width: 100%;
   z-index: -1;
   height: fit-content;
