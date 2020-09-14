@@ -271,18 +271,18 @@ label {
   font-size: 1.5rem;
 }
 
-@media(hover:hover) {
+@media(hover:hover) and (pointer: fine) {
   .btn-mywork:hover {
 
     background-color: #5f0eca;
     
   }
- 
+  .card-content:hover, .card-content:active , .card-content:focus {
+    opacity:85%;
+  }
 
 }
-.card-content:hover, .card-content:active , .card-content:focus {
-  opacity:90%;
-}
+
 @media only screen and (max-width: 1000px) {
   h2 {
     
