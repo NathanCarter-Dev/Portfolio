@@ -28,7 +28,7 @@ body {
 .card {
  
   
-  padding: 2rem;
+  
   margin: 7rem 0rem 0rem 0rem;
 }
 .card-description {
@@ -60,6 +60,7 @@ body {
   margin-top: 2rem;
 }
 #svg {
+  
   height: 466px;
   position: relative;
   
@@ -114,8 +115,8 @@ text-align: center;
 
 }
 .purple {
-  overflow-x: hidden;
-  
+ 
+  margin: 0px;
   width: 100%;
   z-index: -1;
   height: fit-content;
@@ -254,12 +255,9 @@ button {
 }
 
 #hire-me {
-  z-index: 2;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 32%;
+  display: inline;
   color: white;
-  position: absolute;
+  
   
   background-color: #7510F7;
 }
@@ -272,80 +270,6 @@ label {
   font-size: 1.5rem;
 }
 
-#ArrowBottom {
-  animation: bobup 1s infinite;
-}
-#ArrowTop {
-  animation: bobdown 1s infinite;
-}
-#ArrowLeft {
-  animation: bobleft 1s infinite;
-}
-#ArrowRight {
-  animation: bobright 1s infinite;
-}
-#Computer {
-  display: none;
-}
-@keyframes bobup {
-  0% {
-    transform: translateY(0px);
-  } 
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes bobdown {
-  0% {
-    transform: translateY(0px);
-  } 
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes bobleft {
-  0% {
-    transform: translateX(0px);
-  } 
-  50% {
-    transform: translateX(20px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-@keyframes bobright {
-  0% {
-    transform: translateX(0px);
-  } 
-  50% {
-    transform: translateX(-20px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes sway {
-  0% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
-  }
-  50% {
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
-  }
-  100% {
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px);
-  }
-}
 @media(hover:hover) {
   .btn-mywork:hover {
 
@@ -359,18 +283,32 @@ label {
 }
 
 @media only screen and (max-width: 1000px) {
+  h2 {
+    
+    
+    line-height: 2rem;
+    font-size: 22px;
+    
+  }
+  h1 {  
+  
+    line-height: 3rem;
+    font-size: 45px;
+    
+  }
   #hire-me {
     top: 30%;
   }
   button {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
+
   .icon {
     font-size: 3.5rem;
   }
   .card-desc {
     font-size: 0.9rem;
-    width: fit-content;
+    width: 250px;
   }
   .card-title {
     margin-top: 25px;
@@ -402,18 +340,31 @@ label {
 }
 
 @media only screen and (max-width: 700px) {
+  h2 {
+    
+    
+    line-height: 1.4rem;
+    font-size: 19px;
+    
+  }
+  h1 {  
+  
+    line-height: 3rem;
+    font-size: 40px;
+    
+  }
   #hire-me {
     top: 30%;
   }
   button {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .icon {
     font-size: 3rem;
   }
   .card-desc {
     font-size: 0.7rem;
-    width: fit-content;
+    width: 170px;
   }
   .card-title {
     margin-top: 18px;
@@ -445,22 +396,35 @@ label {
 }
 
 @media only screen and (max-width: 600px) {
+  h2 {
+    
+    
+    line-height: 1.2rem;
+    font-size: 15px;
+    
+  }
+  h1 {  
+  
+    line-height: 2.5rem;
+    font-size: 35px;
+    
+  }
   #hire-me {
     top: 26.5%;
   }
   button {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .icon {
     font-size: 3rem;
   }
   .card-desc {
     font-size: 0.7rem;
-    width: fit-content;
+    width: 120px;
   }
   .card-title {
     margin-top: 18px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.2rem;
   }
   .fa-check-circle {
@@ -470,6 +434,7 @@ label {
     margin: 3rem -2rem 0rem -2rem;
   }
   .svg {
+    max-width: 100%;
     width: 25rem;
     bottom: -153px;
   }
