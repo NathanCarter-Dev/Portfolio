@@ -290,9 +290,14 @@ label {
     opacity:85%;
   }
   
+  @media only screen and (max-width: 1300px) {
+    .img-card {
+  
+      margin: 2rem 0.5rem 2rem 0.5rem;
+    }
+  }
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   h2 {
     
     
@@ -453,6 +458,10 @@ label {
   .icon {
     font-size: 3rem;
   }
+  .card-icon {
+    font-size: 3rem;
+  }
+
   .card-desc {
     font-size: 0.7rem;
     width: 120px;
