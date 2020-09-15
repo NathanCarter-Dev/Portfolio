@@ -555,10 +555,12 @@ animations are sectioned into hover effects and on event animations
 
 /* \\====================================FLOATUP=================================// */
 /* zoom animation class */
+@media(hover:hover) {
   .floatup:hover {
     -webkit-transform: translateY(-10px);;
     transform: translateY(-10px);
   }
+}
 
 /* \\===========================================================================// */
 

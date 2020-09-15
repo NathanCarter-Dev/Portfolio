@@ -278,12 +278,14 @@ label {
   font-size: 1.5rem;
 }
 
-
+@media(hover:hover) and (pointer: fine) {
   .btn-mywork:hover {
 
     background-color: #5f0eca;
     
   }
+}
+  
   .card-content:hover, .card-content:focus, .card-content:active{
     opacity:85%;
   }
